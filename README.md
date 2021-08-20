@@ -13,8 +13,8 @@ sudo apt install php php-dev swig
 ## Building
 
 ~~~bash
-git clone https://github.com/SimonAnnetts/phpPCA9685Pi.git
-cd phpPCA9685Pi
+git clone https://github.com/SimonAnnetts/PHP-pca9685.git
+cd PHP-pca9685
 ./build.sh
 ~~~
 
