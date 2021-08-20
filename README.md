@@ -1,4 +1,4 @@
-# phpPCA9685Pi
+# PHP-pcaA9685
 
 PHP library for communicationg with the PCA9685 PWM driver.
 The PCA9685 library used in this PHP binding is by Scott Edlin,
