@@ -23,6 +23,9 @@ cd ../..
 
 echo "Writing an interface file for SWIG...."
 echo "%module pca9685" >${outfile}
+echo "%include \"carrays.i\"" >>${outfile}
+echo "%array_functions(unsigned int, uintArray);" >>${outfile}
+echo "" >>${outfile}
 echo "%{" >>${outfile}
 echo "#include \"./libPCA9685/src/PCA9685.h\"" >>${outfile}
 echo "%}" >>${outfile}

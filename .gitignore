@@ -1,0 +1,8 @@
+**.i
+**.ini
+**.php
+**.so
+*_wrap.c
+*_wrap.o
+php_*.h
+lib*/
